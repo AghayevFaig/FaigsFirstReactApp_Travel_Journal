@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: inter;
+}
+.Header{
+  background-color: #F55A5A;
+  display: flex;
+  flex-direction:  row;
+  justify-content:  center;
+  padding: 20px;
+}
+.Header a{
+  text-decoration: none;
+  color: #fff;
+  align-self:  center;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.card{
+  margin-top: 30px;
+  width: 471px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  overflow:  hidden;
+  font-size: 14px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #F5F5F5;
+  
+}
+.card-image{
+width: 125px;
+height: 168px;
+border-radius: 5px;
+margin-right: 20px; 
+object-fit:  cover;  
+}
+.card p,h2,h4,.Country{
+  margin-top: 10px;
+}
+.Country img{
+  margin-right: 7px;
+  width: 10px;  
+}
+.Country a{
+  text-decoration: underline #918E9B;
+  color: #918E9B;
+  margin-left: 20px;
+}
